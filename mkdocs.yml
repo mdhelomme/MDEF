@@ -47,7 +47,7 @@ theme:
     accent: purple
   font:
     # See available fonts at https://fonts.google.com/
-    text: Oswald
+    text: Archivo
     code: Cutive Mono
   icon:
     logo: material/memory
