@@ -15,8 +15,8 @@ nav:
       - Initial ideas: project/project.md
   - Reflections :
       - Term 1:
-          - Bootcamp: docs\term1\01-Bootcamp.md
-          - AoWS: docs\term1\02-Atlas of Weak Signals.md
+          - Bootcamp: term1/01-Bootcamp.md
+          - AoWS: term1/02-Atlas of Weak Signals.md
 
       - Term 2:
           - digi: docs\term1\01-Bootcamp.md
