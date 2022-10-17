@@ -2,7 +2,7 @@
 site_name: Mariana Ponde Dhelomme - MDEF & Fab Lab Barcelona
 site_description: Master in Design for Emergent Futures
 site_author: Mariana Ponde Dhelomme
-copyright: Copyleft 2021 "Student Name" - GNU Free Documentation License
+copyright: Copyleft 2021 "Mariana Ponde Dhelomme" - GNU Free Documentation License
 repo_name: 'Name : Github Repo'
 site_url: https://fablabbcn.github.io/mdef-template/
 repo_url: 'https://github.com/fablabbcn/mdef-template'
@@ -15,8 +15,8 @@ nav:
       - Initial ideas: project/project.md
   - Reflections :
       - Term 1:
-          - Bootcamp: term1/01-Bootcamp.md
-          - AoWS: term1/02-Atlas of Weak Signals.md
+          - Bootcamp: docs\term1\01-Bootcamp.md
+          - AoWS: docs\term1\02-Atlas of Weak Signals.md
 
       - Term 2:
           - digi: docs\term1\01-Bootcamp.md
