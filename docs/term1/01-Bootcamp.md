@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-# **Bootcamp**
+# Bootcamp
 
 ### **"My Fight" Poster**
 
