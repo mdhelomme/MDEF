@@ -31,7 +31,6 @@ Libre music matching the artifacts(properly acknowledged).
 Ideally the sound produced by the machine will be also recorded in the video.
 Entry and finish titles with Team names, name of the artifact and Iaac/FablabBCN.
 
-Slides¶
 
 Forensic report abstract (reflection)
 System diagram (illustration explaining function, parts, and relations)
