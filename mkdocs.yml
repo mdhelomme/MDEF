@@ -46,7 +46,7 @@ theme:
     accent: red
   font:
     # See available fonts at https://fonts.google.com/
-    text: Lato
+    text: Roboto Mono
     code: Cutive Mono
   icon:
     logo: material/memory
