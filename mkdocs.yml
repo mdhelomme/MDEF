@@ -21,6 +21,8 @@ nav:
           - Bio & Agri Zero: term1/04-BioAgriZero.md
           - Living w/ Your Own Ideas: term1/05-LivingWithIdeas.md
           - Tech Beyond The Myth: term1/06-TechBeyondMyth.md
+          - Community Engagement: term1/07-CoomunityEngagement.md
+          - Extended Intelligences: term1/08-ExtendedIntelligences.md
 
 
 
@@ -46,7 +48,7 @@ theme:
     accent: red
   font:
     # See available fonts at https://fonts.google.com/
-    text: Lato
+    text: Roboto Mono
     code: Cutive Mono
   icon:
     logo: material/memory
