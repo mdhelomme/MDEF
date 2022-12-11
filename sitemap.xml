@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://fablabbcn.github.io/mdef-template/DesignDialogues/DD/</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://fablabbcn.github.io/mdef-template/about/me/</loc>
+         <lastmod>2022-12-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fablabbcn.github.io/mdef-template/project/Strategies/</loc>
          <lastmod>2022-12-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
