@@ -7,13 +7,14 @@ hide:
 
 ## **The "Distracted Timer"**
 
-![The Distracted Timer](../images/Timer.jpeg)
+### Final Video
+[![The Distracted Timer](../images/Timer.jpeg)](https://vimeo.com/manage/videos/780384709)
+
 
 ### [Forensic Report](https://hackmd.io/s/HJBEvhPBo)
 
 ### [Group Presentation](https://hackmd.io/s/HJBEvhPBo)
 
-### [![Vimeo URL]](https://vimeo.com/767800231)
 
 ### Personal Reflection - Learning by Accomplishments and Failures
 
