@@ -7,7 +7,11 @@
     --md-footer-fg-color--light:  rgb(32, 32, 32);
     --mdc-typography-headline6-font-family: 'Roboto Mono';
     --mdc-typography-font-family: 'Roboto Mono';
+<<<<<<< HEAD
+    --md-typeset-a-color: rgb(12, 240, 190);
+=======
     --md-typeset-a-color: rgb(240, 12, 12);
+>>>>>>> 672dff4df1ea5b61baba52476e9a9304a09d48ac
 
 }
 
