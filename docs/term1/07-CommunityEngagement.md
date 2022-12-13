@@ -34,7 +34,7 @@ Currently, the project continues to grow. Even though it is no longer a funded p
 
 As ideal as natural gardening may be, it does hold a few limitations. Firstly, it must be considered that crop rotation is deemed essential for the health and maintanence of the soil, and one cycle may last as long as 6 years. Similarly, crops are aslo heavily dependent on weather condition. This means that natural gardening does not entitle one to freely choose the produce it wants to grow, rather, you would consume that which is available according to growing and climate seasons. For these reasons, alongside the time commitment and slow pace of natural gardening, it might be more convenient for one to buy readily-available produce. 
 
-Another limitation may be the accessibility of information available for those who might me interested in natural gardening. Learning gardening is not an easy practice in itself, and natural gardening requires site-specific information (such as response to climate variations, local insects, etc) which my not be easily available to the wider public.
+Another limitation may be the accessibility of information available for those who might me interested in natural gardening. Learning gardening is not an easy practice in itself, and natural gardening requires site-specific information (such as response to climate variations, local insects, etc) which may not be easily available to the wider public.
 
 **Theory of change**
 
