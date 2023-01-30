@@ -2,7 +2,6 @@
 
 ![Group Work](../images/CrystalBall.jpg)
 
-
 ## The Crystal Ball Machine - A Reflection on AI
 
 ### Reflection
