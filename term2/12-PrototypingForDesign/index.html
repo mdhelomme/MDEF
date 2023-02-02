@@ -632,7 +632,42 @@
 <h2 id="reflections">Reflections<a class="headerlink" href="#reflections" title="Permanent link">&para;</a></h2>
 <h3 id="0102-electronics-and-coding">01/02 - Electronics and Coding<a class="headerlink" href="#0102-electronics-and-coding" title="Permanent link">&para;</a></h3>
 <p>This class we explored the basics and extents of electronics. Personally, as someone who has never worked with electronics, it was difficult to grasp the practical uses of the theoretical knowledge presented. Nonetheless, I am exited for future projects, where I hope to truly understand the extents of electronic hardware and command-based electronics.</p>
-<p>Following, here is the class assignment: Arduino Code and Music. </p>
+<p>Following, here is the class assignment: Arduino Code and Music.</p>
+<div class="highlight"><pre><span></span><code>int buzzer = 13;//the pin of the active buzzer
+void setup()
+{
+ pinMode(buzzer,OUTPUT);//initialize the buzzer pin as an output
+}
+void loop()
+{
+ unsigned char i;
+ while(1)
+ {
+   for(i=0;i&lt;80;i++)
+   {
+    digitalWrite(buzzer,HIGH);
+    delay(2);//wait for 1ms
+    digitalWrite(buzzer,LOW);
+    delay(1);//wait for 1ms
+    }
+     for(i=0;i&lt;100;i++)
+      {
+        digitalWrite(buzzer,HIGH);
+        delay(2);//wait for 2ms
+        digitalWrite(buzzer,LOW);
+        delay(2);//wait for 2ms
+      }
+        for(i=0;i&lt;40;i++)
+      {
+        digitalWrite(buzzer,HIGH);
+        delay(1);//wait for 2ms
+        digitalWrite(buzzer,LOW);
+        delay(2);//wait for 2ms
+      }
+
+  }
+} 
+</code></pre></div>
                 
                   
                     
@@ -641,7 +676,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 1, 2023</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 2, 2023</span>
     
   </small>
 </div>
