@@ -49,7 +49,7 @@ void loop()
 
 Today was very interesting to me, since I am very intrigued by 3D modelling and its endless real of capabilities. I have previous experience with blender, and decided to explore it materiality tools. Following is what I was able to come up with when exploring with the generation of liquid:
 
-![Liquid Prototyping](../images/DS.jpg)
+![Liquid Prototyping](../images/Liquid.png)
 
 ### 08/02 - Computer Aided Modelling and Manifacturing
 
