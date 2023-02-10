@@ -47,8 +47,12 @@ void loop()
 
 ### 02/02 - Computer Aided Modelling and Manifacturing
 
-Today was very interesting to me, since I am very intrigued by 3D modelling and its endless real of capabilities. I have previous experience with blender, but for the sake of today's assignment, I decided to experiment with Houdini. Following is what I was able to come up with:
+Today was very interesting to me, since I am very intrigued by 3D modelling and its endless real of capabilities. I have previous experience with blender, and decided to explore it materiality tools. Following is what I was able to come up with when exploring with the generation of liquid:
 
-Also, here is my parametric design of a Croissant :)
+### 08/02 - Computer Aided Modelling and Manifacturing
 
 
+
+### 08/02 - Sensors and Arduino
+
+This class we discussed the different types of sensors, how resistors work and affect the overall circuit, and the overall importance of inputs and outputs. 
