@@ -10,3 +10,6 @@ This course also made me rethink normative communication systems. Realizing how 
 
 **Relationship to personal project?**
 “We are here on behalf of others”. How can we use the concept of ancestral knowledge for the expanding future? In augmented reality, what does it mean to design for the next billion seconds? What are the “futures” I am attempting to tap into? In terms of a time capsule, what do I want to preserve for future generations, and what must be rewritten?
+
+![Design Space](../images/DS.jpg)
+
