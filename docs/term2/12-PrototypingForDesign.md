@@ -51,6 +51,11 @@ Today was very interesting to me, since I am very intrigued by 3D modelling and 
 
 ![Liquid Prototyping](../images/Liquid.png)
 
+Also, here is my parametric drawing of a croissant:
+
+![Croissant](../images/Croissant.png)
+
+
 ### 08/02 - Computer Aided Modelling and Manifacturing
 
 
