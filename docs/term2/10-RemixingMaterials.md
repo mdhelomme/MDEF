@@ -22,7 +22,7 @@ I really enjoyed working with Kombucha. I have always enjoyed the processes of g
 
 **Ideal/Fictional Material: Chitosan**
 
-
+Finally, our ideal material was Chitosan. Or, most specifically, seashells. Chitosan, a product of seashells, has shown to return great results when used for 3D printing, leathers, and even the manufacture of batteries. While our initial proposal was to develop a battery, we found it to be harder than it seemed, and stuck with extrusion and texture experimentation.
 
 ![Design Space](../images/DMJ2.jpg)
 
