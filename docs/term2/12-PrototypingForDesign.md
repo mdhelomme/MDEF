@@ -45,7 +45,7 @@ void loop()
 } 
 ```
 
-### 02/02 - Computer Aided Modelling and Manifacturing
+### Computer Aided Modelling and Manifacturing
 
 Today was very interesting to me, since I am very intrigued by 3D modelling and its endless real of capabilities. I have previous experience with blender, and decided to explore it materiality tools. Following is what I was able to come up with when exploring with the generation of liquid:
 
@@ -56,10 +56,26 @@ Also, here is my parametric drawing of a croissant:
 ![Croissant](../images/Croissant.png)
 
 
-### 08/02 - Computer Aided Modelling and Manifacturing
+### Computer Aided Modelling and Manifacturing
 
 
 
-### 08/02 - Sensors and Arduino
+### Sensors and Arduino - Morse Code Conversations
 
 This class we discussed the different types of sensors, how resistors work and affect the overall circuit, and the overall importance of inputs and outputs. 
+
+### Laser Cutting
+
+For the Laser Cut Project, we printed pieces of our intervention installation "The Confessional"
+
+### 3D Printing and Scanning
+
+3D Printing was straight-forward, as was 3D Scanning. 
+
+### CNC Machining
+
+CNC machining was harder than I expected it to be.
+
+### Arduino and Networks
+
+For this class we learned about the encryption of networks.
