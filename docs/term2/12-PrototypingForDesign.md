@@ -56,26 +56,35 @@ Also, here is my parametric drawing of a croissant:
 ![Croissant](../images/Croissant.png)
 
 
-### Computer Aided Modelling and Manifacturing
+### 2D Fabrication - Laser Cutting
+
+For the Laser Cut Project, we printed pieces of our intervention installation "The Confessional"
 
 
 
-### Sensors and Arduino - Morse Code Conversations
+### Inputs and Outputs - Morse Code Conversations
 
 This class we discussed the different types of sensors, how resistors work and affect the overall circuit, and the overall importance of inputs and outputs. 
 
-### Laser Cutting
+### Challenge I - Augmented Reality and Hidden Conversations
 
-For the Laser Cut Project, we printed pieces of our intervention installation "The Confessional"
+Repo: https://github.com/mdhelomme/MicroChallengeI
+
+### Networking
+
+For this class we learned about the encryption of networks.
 
 ### 3D Printing and Scanning
 
 3D Printing was straight-forward, as was 3D Scanning. 
 
+### Interfaces - Machines
+
 ### CNC Machining
 
 CNC machining was harder than I expected it to be.
 
-### Arduino and Networks
+### Challenge 2
 
-For this class we learned about the encryption of networks.
+Repo: https://github.com/clodbe0/Microchallenge-II/edit/main/README.md
+
