@@ -11,5 +11,5 @@ Our group looked into optimizing the schedule of MDEF through the use of a physi
 https://hackmd.io/@cagsun/H18O_gLJh/edit
 
 ![Design Space](../images/Measuring.png)
-![Design Space](../images/Measuring2.png)
-![Design Space](../images/Measuring3.png)
+![Design Space](../images/Measuring2.jpeg)
+![Design Space](../images/Measuring3.jpeg)
