@@ -92,7 +92,7 @@ void setup() {
  Serial.begin(9600);
 }
 
-void loop() {
+void loop() { 
 
  // read the input on analog pin 0:
  int sensorValue = analogRead(A3);
@@ -150,6 +150,7 @@ void loop() {
    //Serial.print("LDR value: ");
    //Serial.println(ldr);
  }
+}
  
  ```
 
