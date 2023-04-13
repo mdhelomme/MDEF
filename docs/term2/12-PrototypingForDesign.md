@@ -151,7 +151,6 @@ void loop() {
    //Serial.println(ldr);
  }
 }
- 
  ```
 
 ### Challenge I - Augmented Reality and Hidden Conversations
