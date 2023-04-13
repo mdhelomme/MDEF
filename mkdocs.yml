@@ -55,27 +55,33 @@ extra:
 theme:
   name: material
   palette:
-    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: black
-    accent: red
+    primary: indigo
+    accent: amber
   font:
-    # See available fonts at https://fonts.google.com/
-    text: Roboto Mono
-    code: Cutive Mono
+    text: Roboto Slab
+    code: Fira Code
   icon:
-    logo: material/memory
+    logo: material/auto-fix
   favicon: images/favicon.svg
   features:
     - instant
     - navigation.expand
     - navigation.indexes
     - navigation.instant
-    # - navigation.prune
-    # - navigation.sections
+    - navigation.search.highlight
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - footer.modified_time
+    - footer.license
+
+extra:
+  search:
+    language: 'en'
+  social:
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/mdhelomme'
 
 plugins:
   - search
