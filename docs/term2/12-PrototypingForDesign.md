@@ -217,7 +217,27 @@ For this class we learned about the encryption of networks.
 
 CNC machining was harder than I expected it to be.
 
+![CNC](../images/CNC2.png)
+![CNC](../images/CNC1.png)
+![CNC](../images/CNC3.png)
+
 ### Challenge 2
 
 Repo: https://github.com/clodbe0/Microchallenge-II/edit/main/README.md
+
+For our microchallenge II we proposed was an interactive installation that allows people to share their experiences with psychoactive substances, and a virtual reality environment that reinforces such a dialogue. 
+
+**The confessional - an interactive installation:**
+
+The lack of communication and dialogue around psychoactive substances often leads to a lack of awareness and information about the topic. We believe that sharing personal experiences can be a valuable tool in preventing harm to other consumers. To promote communication and comfortability, we have created The Confessional - a personal and protected space where individuals can freely and anonymously narrate their personal experiences with psychoactive substances. The Confessional is made of plywood, making it lightweight and portable.
+
+![CNC](../images/CNC2.png)
+
+Ideally, all the stories shared in The Confessional will then be translated into a VR experience, which we aim to exhibit at Sonar+D. We recognize that the use of substances is both literary and personal, where one's experience is only partially narrated by literature on a substance and its effects. Therefore, we believe that personal conversations are essential when discussing the topic. Unfolding Conversation thus aims to provide a safe space for people to share their experiences, creating a database of personal narratives that will be exhibited in subsequent installations. Through the power of storytelling, we hope to promote understanding, reduce stigma and discrimination, and create a more accepting and open attitude towards psychoactive substance consumption, especially in a music fest environment where people might be keener to be involved in the topic, looking for further safety and comfort. 
+
+Key Components:
+
+Structure: Pieces were modeled in Rhino and fabricated via laser cut and CNC (plywood). These technologies were facilitated by FabLab Barcelona.
+
+Directional Microphone: A directional microphone allowed us to minimize unwanted background noise or interference when recording personal experiences. This provides for minimal post-processing and cleaner audio data, increasing the animation precision of the audio2face animations. While we toyed with the idea of using external microphones and a Raspberry Pi, at the time of our presentation, it did not work.
 
