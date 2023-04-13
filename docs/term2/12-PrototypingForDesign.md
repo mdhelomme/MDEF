@@ -330,6 +330,7 @@ Structure: Pieces were modeled in Rhino and fabricated via laser cut and CNC (pl
 Directional Microphone: A directional microphone allowed us to minimize unwanted background noise or interference when recording personal experiences. This provides for minimal post-processing and cleaner audio data, increasing the animation precision of the audio2face animations. While we toyed with the idea of using external microphones and a Raspberry Pi, at the time of our presentation, it did not work.
 
 **distance measurement code**
+
 ```
 #Libraries
 import RPi.GPIO as GPIO
