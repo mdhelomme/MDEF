@@ -913,13 +913,82 @@ By harnessing the power of the MQTT (Message Queuing Telemetry Transport) protoc
 
 ### Interfaces - Machines
 
-For this class, we used a remote server to simoultaneoulsy activate all the ESP Featherboards in class, resulting in a fun light show.
-
 ![LightsNetwork](../images/Network.png)
 
-### CNC Machining
+For this class, we used a remote server to simoultaneoulsy activate all the ESP Featherboards in class, resulting in a fun light show. It was very interesting to work with the remote network. The reference code provided in class allowed us to control the behavior of an LED connected to the Arduino microcontroller remotely through serial communication. By sending specific messages from the remote device, we could control the LED&#39;s blinking pattern, including the number of blinks and the speed of blinking. Overall, while I did not understand much of the specifics, the collaborative exercise was a fun way to superficially grasp the power of remote control.
+</code></pre></div>
+<h1 id="include-arduinoh">include &ldquo;Arduino.h&rdquo;<a class="headerlink" href="#include-arduinoh" title="Permanent link">&para;</a></h1>
+<h1 id="define-led_pin-14">define LED_PIN 14<a class="headerlink" href="#define-led_pin-14" title="Permanent link">&para;</a></h1>
+<p>// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_PIN, OUTPUT);
+  Serial.begin(9600);
+}</p>
+<p>void blink () {
+  digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+void blinkFast () {
+  int i=0;
+  while(i&lt;20){
+    digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(100);                       // wait for a second
+    digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+    delay(100);
+    i++;  <br />
+  }                       // wait for a second
+}
+void blinkX (int reps) {
+  int i=0;
+  while(i&lt;reps){
+    digitalWrite(LED_PIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(100);                       // wait for a second
+    digitalWrite(LED_PIN, LOW);    // turn the LED off by making the voltage LOW
+    delay(100);
+    i++;
+  }                       // wait for a second
+}</p>
+<p>// the loop function runs over and over again forever
+void loop() {</p>
+<p>if (Serial.available()) {
+    String newMsg = Serial.readString();
+    newMsg.trim();</p>
+<div class="codehilite"><pre><span></span><code>Serial.print(&quot;Got new message!: &quot;);
+Serial.println(newMsg);
 
-![CNC](../images/CNC2.png)
+// blink if we tell it to!
+if (newMsg.equals(&quot;a&quot;)){
+  blink();
+}
+if (newMsg.equals(&quot;c&quot;)){
+  blink();
+  blink();
+  blink();
+}
+if (newMsg.equals(&quot;b&quot;)){
+  blink();
+  blink();
+}
+if (newMsg.equals(&quot;fast&quot;)){
+  blinkFast();
+}
+if (newMsg.equals(&quot;b5&quot;)){
+  blinkX(5);
+}
+if (newMsg.equals(&quot;b50&quot;)){
+  blinkX(50);
+}
+</code></pre></div>
+
+<p>}
+}
+```
+</p>
+<h3 id="cnc-machining">CNC Machining<a class="headerlink" href="#cnc-machining" title="Permanent link">&para;</a></h3>
+<p><img alt="CNC" src="../../images/CNC2.png" />
 
 CNC machining was harder than I expected it to be. The initial phase of our process involved utilizing Rhino render to gain an understanding of the measurements and proportions required for our design. As we progressed, we made significant alterations to the design in order to accommodate the available board size and ensure that the final structure would be as lightweight as possible. 
 
@@ -929,22 +998,21 @@ The third step of our project entailed familiarizing ourselves with the operatio
 
 As we delved into the complexities of the process, we encountered numerous unforeseen details and considerations that had not been evident during the 3D modeling phase. This necessitated last-minute modifications and adjustments, which, though unexpected, ultimately demonstrated the importance of recording our processes and paying attention to detail..
 
-![CNC](../images/CNC1.png)
-![CNC](../images/CNC3.png)
-
-### Challenge 2
-
-Repo: https://github.com/clodbe0/Microchallenge-II/edit/main/README.md
+<img alt="CNC" src="../../images/CNC1.png" />
+<img alt="CNC" src="../images/CNC3.png" />
+</p>
+<h3 id="challenge-2">Challenge 2<a class="headerlink" href="#challenge-2" title="Permanent link">&para;</a></h3>
+<p>Repo: <a href="https://github.com/clodbe0/Microchallenge-II/edit/main/README.md">https://github.com/clodbe0/Microchallenge-II/edit/main/README.md</a>
 
 For our microchallenge II we proposed was an interactive installation that allows people to share their experiences with psychoactive substances, and a virtual reality environment that reinforces such a dialogue. 
 
-**The confessional - an interactive installation:**
+<strong>The confessional - an interactive installation:</strong>
 
 The lack of communication and dialogue around psychoactive substances often leads to a lack of awareness and information about the topic. We believe that sharing personal experiences can be a valuable tool in preventing harm to other consumers. To promote communication and comfortability, we have created The Confessional - a personal and protected space where individuals can freely and anonymously narrate their personal experiences with psychoactive substances. The Confessional is made of plywood, making it lightweight and portable.
 
-![CNC](../images/CNC2.png)
+<img alt="CNC" src="../../images/CNC2.png" />
 
-Ideally, all the stories shared in The Confessional will then be translated into a VR experience, which we aim to exhibit at Sonar+D. We recognize that the use of substances is both literary and personal, where one&#39;s experience is only partially narrated by literature on a substance and its effects. Therefore, we believe that personal conversations are essential when discussing the topic. Unfolding Conversation thus aims to provide a safe space for people to share their experiences, creating a database of personal narratives that will be exhibited in subsequent installations. Through the power of storytelling, we hope to promote understanding, reduce stigma and discrimination, and create a more accepting and open attitude towards psychoactive substance consumption, especially in a music fest environment where people might be keener to be involved in the topic, looking for further safety and comfort. 
+Ideally, all the stories shared in The Confessional will then be translated into a VR experience, which we aim to exhibit at Sonar+D. We recognize that the use of substances is both literary and personal, where one&rsquo;s experience is only partially narrated by literature on a substance and its effects. Therefore, we believe that personal conversations are essential when discussing the topic. Unfolding Conversation thus aims to provide a safe space for people to share their experiences, creating a database of personal narratives that will be exhibited in subsequent installations. Through the power of storytelling, we hope to promote understanding, reduce stigma and discrimination, and create a more accepting and open attitude towards psychoactive substance consumption, especially in a music fest environment where people might be keener to be involved in the topic, looking for further safety and comfort. 
 
 Key Components:
 
@@ -952,8 +1020,8 @@ Structure: Pieces were modeled in Rhino and fabricated via laser cut and CNC (pl
 
 Directional Microphone: A directional microphone allowed us to minimize unwanted background noise or interference when recording personal experiences. This provides for minimal post-processing and cleaner audio data, increasing the animation precision of the audio2face animations. While we toyed with the idea of using external microphones and a Raspberry Pi, at the time of our presentation, it did not work.
 
-**distance measurement code**
-</code></pre></div>
+<strong>distance measurement code</strong>
+```</p>
 <h1 id="libraries">Libraries<a class="headerlink" href="#libraries" title="Permanent link">&para;</a></h1>
 <p>import RPi.GPIO as GPIO
 import time</p>
