@@ -14,7 +14,7 @@
 
 ***Learning Skills:***
 
-This session evidenced points of emphasis in my intervention: tapping into ecosystemic values, and also its points of weakness: environmental regeneration. During the activity, I was required to examine both the actual status of my project and its potential status within each section. What I mean by this is that I had to evaluate how I weighed my project as according to my sense-making priorities, and also how I could potentially improve it as according to secondary objectives. In simpler words, it showed me what I had already accomplished and how could I move towards the next steps in direction of a positive impact.
+This session highlighted the points of emphasis in my intervention: tapping into ecosystemic values, and also its points of weakness: environmental regeneration. During the activity, I was required to examine both the actual status of my project and its potential status within each section. What I mean by this is that I had to evaluate how I weighed my project as according to my sense-making priorities, and also how I could potentially improve it as according to secondary objectives. In simpler words, it showed me what I had already accomplished and how could I move towards the next steps in direction of a positive impact.
 
 ***Dynamics:***
 
