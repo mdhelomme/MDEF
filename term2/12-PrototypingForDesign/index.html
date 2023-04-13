@@ -851,11 +851,84 @@ void loop()
 <p>For the Laser Cut Project, we printed pieces of our intervention installation &ldquo;The Confessional&rdquo;</p>
 <h3 id="inputs-and-outputs-morse-code-conversations">Inputs and Outputs - Morse Code Conversations<a class="headerlink" href="#inputs-and-outputs-morse-code-conversations" title="Permanent link">&para;</a></h3>
 <p>This class we discussed the different types of sensors, how resistors work and affect the overall circuit, and the overall importance of inputs and outputs. </p>
+<p><img alt="Arduino" src="../../images/Morse.jpeg" /></p>
+<p>int R2 = 10000;
+float VIN = 3.0;</p>
+<p>unsigned long startTime = 0;
+unsigned long endTime = 0;
+unsigned long interval = 0;</p>
+<p>int ledState = 0;</p>
+<p>void setup() {
+ Serial.begin(9600);
+}</p>
+<p>```
+void loop() {</p>
+<p>// read the input on analog pin 0:
+ int sensorValue = analogRead(A3);</p>
+<p>if (sensorValue &gt; 1000) {
+   Serial.println(&ldquo;turn off the lights!&rdquo;);
+   delay(1000);
+ }</p>
+<p>else {
+   Serial.println(&ldquo;lights off, checking for LED&hellip;&rdquo;);
+   if (sensorValue &gt; 100 &amp;&amp; ledState == 0)  //if the led turns on
+   {
+     ledState = 1;
+     Serial.println(&ldquo;the led turned on, I think!&rdquo;);
+     startTime = millis();
+     Serial.println(&ldquo;start time:&rdquo;);
+     Serial.println(startTime);</p>
+<div class="codehilite"><pre><span></span><code> if (sensorValue &lt; 100) {
+   endTime = millis();
+   Serial.println(&quot;end time: &quot;);
+   Serial.println(endTime);
+   interval = endTime - startTime;
+   Serial.println(&quot;interval: &quot;);
+   Serial.println(interval);
+
+   Serial.println(&quot;The LED is back off, I think!&quot;);
+   ledState = 0;
+   delay(1000);
+
+   if (interval &lt; 1000) {
+     Serial.println(&quot;SHORT&quot;);
+     delay(1000);
+     interval = 0;
+   }
+
+   else {
+     Serial.println(&quot;LONG&quot;);
+     delay(1000);
+     interval = 0;
+   }
+ }
+</code></pre></div>
+
+<p>}
+   // Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
+   //float voltage = sensorValue * (3.0 / 1023.0);</p>
+<p>// Get the value of R1
+   //int ldr = ((R2 * VIN) / voltage) - R2;</p>
+<p>// print out the value you read:
+   //Serial.println(sensorValue);
+   //Serial.print(&ldquo;voltage: &ldquo;);
+   //Serial.println(voltage);
+   //Serial.print(&ldquo;LDR value: &ldquo;);
+   //Serial.println(ldr);
+ }
+ ```</p>
 <h3 id="challenge-i-augmented-reality-and-hidden-conversations">Challenge I - Augmented Reality and Hidden Conversations<a class="headerlink" href="#challenge-i-augmented-reality-and-hidden-conversations" title="Permanent link">&para;</a></h3>
 <p>Repo: <a href="https://github.com/mdhelomme/MicroChallengeI">https://github.com/mdhelomme/MicroChallengeI</a></p>
 <h3 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h3>
 <p>For this class we learned about the encryption of networks.</p>
 <h3 id="3d-printing-and-scanning">3D Printing and Scanning<a class="headerlink" href="#3d-printing-and-scanning" title="Permanent link">&para;</a></h3>
+<p><strong>3D Model &amp; Printing</strong></p>
+<p><img alt="Rhino" src="../../images/rhinoFile.png" /></p>
+<p><img alt="Printed Model" src="../../images/PrintedModel.jpeg" /></p>
+<p><strong>3D Scan of Printed Model</strong></p>
+<p><img alt="Scan 1" src="../../images/scan1.png" />
+<img alt="Scan 2" src="../../images/scan2.png" />
+<img alt="Scan 3" src="../../images/scan3.png" /></p>
 <p>3D Printing was straight-forward, as was 3D Scanning. </p>
 <h3 id="interfaces-machines">Interfaces - Machines<a class="headerlink" href="#interfaces-machines" title="Permanent link">&para;</a></h3>
 <h3 id="cnc-machining">CNC Machining<a class="headerlink" href="#cnc-machining" title="Permanent link">&para;</a></h3>
@@ -870,7 +943,7 @@ void loop()
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 12, 2023</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 13, 2023</span>
     
   </small>
 </div>
