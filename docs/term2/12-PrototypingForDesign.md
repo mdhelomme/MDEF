@@ -206,11 +206,21 @@ Via the MQTT (Message Queuing Telemetry Transport) protocol, we were able to fac
 
 **3D Model & Printing**
 
+For this project, I collaborated with Ramiro and Claudia to build a volcano ashtray:
+
+![REF Model](../images/Ref3D.jpeg)
+
+This was our attempt to replicate the 3D model:
+
 ![Rhino](../images/rhinoFile.png)
+
+Printing was very simple. All we had to do was transfer the file to cura with the correct parameters, save the file on the mini sd card, and send it over to the FabLab pronter.
 
 ![Printed Model](../images/PrintedModel.jpeg)
 
 **3D Scan of Printed Model**
+
+Later on, we scanned it using our IPhone infrared sensor camera. 
 
 ![Scan 1](../images/scan1.png)
 ![Scan 2](../images/scan2.png)
