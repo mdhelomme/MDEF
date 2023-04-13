@@ -59,7 +59,9 @@ Also, here is my parametric drawing of a croissant:
 
 For the Laser Cut Project, we printed pieces of our intervention installation "The Confessional". Laser cutting, to me, was a complex experience when having to translate the lines in rhino to the machine itself. Nonetheless, to ease our process, we used the conventional parameters available at fablab for speed and power. Also, in order to waste a lesser amount of material when doing our project, we first prototyped. using cardboard, before cutting into our final piece on plywood.
 
-
+![LaserCut](../images/ModularBoard.png)
+![LaserCut](../images/Board2.png)
+![LaserCut](../images/LaserCut.jpeg)
 
 ### Inputs and Outputs - Morse Code Conversations
 
