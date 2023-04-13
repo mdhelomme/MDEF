@@ -576,48 +576,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#challenge-i-augmented-reality-and-hidden-conversations" class="md-nav__link">
-    Challenge I - Augmented Reality and Hidden Conversations
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#networking" class="md-nav__link">
-    Networking
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3d-printing-and-scanning" class="md-nav__link">
-    3D Printing and Scanning
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#interfaces-machines" class="md-nav__link">
-    Interfaces - Machines
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cnc-machining" class="md-nav__link">
-    CNC Machining
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#challenge-2" class="md-nav__link">
-    Challenge 2
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -735,48 +693,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#challenge-i-augmented-reality-and-hidden-conversations" class="md-nav__link">
-    Challenge I - Augmented Reality and Hidden Conversations
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#networking" class="md-nav__link">
-    Networking
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3d-printing-and-scanning" class="md-nav__link">
-    3D Printing and Scanning
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#interfaces-machines" class="md-nav__link">
-    Interfaces - Machines
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cnc-machining" class="md-nav__link">
-    CNC Machining
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#challenge-2" class="md-nav__link">
-    Challenge 2
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -859,117 +775,260 @@ void loop()
 <p>The loop function reads the value of an analog sensor connected to the the Arduino board. If the sensor value is greater than 1000, it sends a message to the serial monitor to turn off the lights and waits for one second.</p>
 <p>If the sensor value is less than or equal to 1000, it sends a message to the serial monitor that the lights are off and checks if the LED has turned on by checking if the sensor value is greater than 100 and ledState is 0. If the LED has turned on, it sets ledState to 1 and sends a message to the serial monitor that the LED has turned on. It also sets the startTime variable to the current time using the millis() function and sends a message to the serial monitor with the start time.</p>
 <p>The program is trying to sense blinking lights as a translation of Morse code. Therefore, if the LED turns off again, the program calculates the duration of the LED being on by taking the difference between the start time and the end time using the millis() function. It then sends a message to the serial monitor with the end time and the interval. If the interval is less than 1000 milliseconds, it sends a message to the serial monitor that the interval is short, indicating a dot in Morse code. If the interval is greater than or equal to 1000 milliseconds, it sends a message to the serial monitor that the interval is long, indicating a dash in Morse code.</p>
-<p>```
-int R2 = 10000;
-float VIN = 3.0;</p>
-<p>unsigned long startTime = 0;
+<div class="highlight"><pre><span></span><code>int R2 = 10000;
+float VIN = 3.0;
+
+unsigned long startTime = 0;
 unsigned long endTime = 0;
-unsigned long interval = 0;</p>
-<p>int ledState = 0;</p>
-<p>void setup() {
+unsigned long interval = 0;
+
+int ledState = 0;
+
+void setup() {
  Serial.begin(9600);
-}</p>
-<p>void loop() {</p>
-<p>// read the input on analog pin 0:
- int sensorValue = analogRead(A3);</p>
-<p>if (sensorValue &gt; 1000) {
-   Serial.println(&ldquo;turn off the lights!&rdquo;);
+}
+
+void loop() {
+
+ // read the input on analog pin 0:
+ int sensorValue = analogRead(A3);
+
+ if (sensorValue &gt; 1000) {
+   Serial.println(&quot;turn off the lights!&quot;);
    delay(1000);
- }</p>
-<p>else {
-   Serial.println(&ldquo;lights off, checking for LED&hellip;&rdquo;);
+ }
+
+ else {
+   Serial.println(&quot;lights off, checking for LED...&quot;);
    if (sensorValue &gt; 100 &amp;&amp; ledState == 0)  //if the led turns on
    {
      ledState = 1;
-     Serial.println(&ldquo;the led turned on, I think!&rdquo;);
+     Serial.println(&quot;the led turned on, I think!&quot;);
      startTime = millis();
-     Serial.println(&ldquo;start time:&rdquo;);
-     Serial.println(startTime);</p>
-<div class="codehilite"><pre><span></span><code> if (sensorValue &lt; 100) {
-   endTime = millis();
-   Serial.println(&quot;end time: &quot;);
-   Serial.println(endTime);
-   interval = endTime - startTime;
-   Serial.println(&quot;interval: &quot;);
-   Serial.println(interval);
+     Serial.println(&quot;start time:&quot;);
+     Serial.println(startTime);
 
-   Serial.println(&quot;The LED is back off, I think!&quot;);
-   ledState = 0;
-   delay(1000);
+     if (sensorValue &lt; 100) {
+       endTime = millis();
+       Serial.println(&quot;end time: &quot;);
+       Serial.println(endTime);
+       interval = endTime - startTime;
+       Serial.println(&quot;interval: &quot;);
+       Serial.println(interval);
 
-   if (interval &lt; 1000) {
-     Serial.println(&quot;SHORT&quot;);
-     delay(1000);
-     interval = 0;
+       Serial.println(&quot;The LED is back off, I think!&quot;);
+       ledState = 0;
+       delay(1000);
+
+       if (interval &lt; 1000) {
+         Serial.println(&quot;SHORT&quot;);
+         delay(1000);
+         interval = 0;
+       }
+
+       else {
+         Serial.println(&quot;LONG&quot;);
+         delay(1000);
+         interval = 0;
+       }
+     }
    }
-
-   else {
-     Serial.println(&quot;LONG&quot;);
-     delay(1000);
-     interval = 0;
-   }
- }
-</code></pre></div>
-
-<p>}
    // Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
-   //float voltage = sensorValue * (3.0 / 1023.0);</p>
-<p>// Get the value of R1
-   //int ldr = ((R2 * VIN) / voltage) - R2;</p>
-<p>// print out the value you read:
+   //float voltage = sensorValue * (3.0 / 1023.0);
+
+   // Get the value of R1
+   //int ldr = ((R2 * VIN) / voltage) - R2;
+
+   // print out the value you read:
    //Serial.println(sensorValue);
-   //Serial.print(&ldquo;voltage: &ldquo;);
+   //Serial.print(&quot;voltage: &quot;);
    //Serial.println(voltage);
-   //Serial.print(&ldquo;LDR value: &ldquo;);
+   //Serial.print(&quot;LDR value: &quot;);
    //Serial.println(ldr);
  }
- ```</p>
-<h3 id="challenge-i-augmented-reality-and-hidden-conversations">Challenge I - Augmented Reality and Hidden Conversations<a class="headerlink" href="#challenge-i-augmented-reality-and-hidden-conversations" title="Permanent link">&para;</a></h3>
-<p>Repo: <a href="https://github.com/mdhelomme/MicroChallengeI">https://github.com/mdhelomme/MicroChallengeI</a></p>
-<p>Project Overview:</p>
-<p>Unfolding Conversations is an ongoing intervention that aims to create open dialogue surrounding the use of psychoactive substances in recreational environments. The project seeks to provide a non-judgmental platform for people to share their experiences and opinions on drug use in various locations, such as music festivals, bars, or universities. It combines a physical sharing board with augmented reality technology to create a unique and interactive experience that facilitates communication about a topic often considered taboo.</p>
-<p>Key Components:</p>
-<p>Sharing Board: The board is designed using a topography map to allow for modularity and adaptability to different locations and settings. It presents a flow of statements and questions related to drug use, and participants can engage with the board by attaching threads to nails corresponding to their answers.</p>
-<p>Invisible Answers: To encourage honest sharing, the project includes &ldquo;invisible answers&rdquo; that can be revealed through an augmented reality (AR) app. These answers are printed on stickers with unique shapes and placed on the board. When scanned with the AR app, the stickers reveal more intimate and difficult statements that may be harder for participants to express openly.</p>
-<p>AR App: The app, developed using an AR development package and ARKit, allows participants to scan the stickers and view the hidden answers on their smartphones. Currently, the app is limited to individual deployment on iOS devices and must be built through Xcode.</p>
-<p>Project Breakdown:</p>
-<p>We designed the board starting with a topography map to give a modularity aspect and not to limitate ourselves to a squared board. Also, the shapes of the topography allow us to build on to different shapes and adjust the board according to our preference.</p>
-<p><img alt="LaserCut" src="../../images/ModularBoard.png" /></p>
-<p>Once the shapes were fixed we developed a flow of answers that could represent statements related to drugs and then we placed them in the rhino file.</p>
-<p>We first prototyped the board in cardboard to test it out and then laser-cut it on plywood. The whole board starts with a question: &ldquo;Do you do drugs?&rdquo; The YES and NO answers correspond to a thread and then the journey begins as a flow of answers to communicate personal opinions and experiences. Close to each answer, we put a nail where a thread can be attached as a &ldquo;yes I do&rdquo;.</p>
-<p><img alt="LaserCut" src="../../images/LaserCut.jpeg" /></p>
-<p>We know that being honest, with themselves and others, about drugs is not easy, so in order to allow people to feel more comfortable about sharing we came up with the idea of the invisible answers, more intimate and difficult statements that might be hard to point out in front of others. These answers were not laser cut in the board, instead, we printed shaped stickers (connected to the aesthetic of the project) on blue vinyl and then stuck them on the board.</p>
-<p>Utilizing an augmented reality development package along with ARKit, we developed an app that enables users to individually scan each icon (stickers), subsequently displaying the &ldquo;invisible answers&rdquo; on their smartphones. However, the app is restricted to individual deployment, which requires us to build and deploy it on each iOS device via Xcode. As a result, the code is currently exclusive to iOS builds.</p>
-<p>Ultimately, each participant can experience an open and inclusive space for sharing even more intimate and private aspects related to drug use. This project is a component of a broader initiative called &ldquo;Drugs You Better Know,&rdquo; which will soon seek to participate in a Sonar open call for artistic and technological projects operating at the intersection of art, technology, science, and society, focusing on ideas that involve the development of AI, VR, and AR. </p>
-<p><img alt="Final Project" src="../../images/FinalAR.jpeg" /></p>
-<p>By creating a safe space for sharing personal opinions and experiences about drug use, Unfolding Conversations hopes to raise awareness about the substances in circulation, foster informed decision-making, and ultimately reduce the risk of drug-related problems in recreational environments.</p>
-<h3 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h3>
-<p>For this class we learned about the encryption of networks.</p>
-<h3 id="3d-printing-and-scanning">3D Printing and Scanning<a class="headerlink" href="#3d-printing-and-scanning" title="Permanent link">&para;</a></h3>
-<p><strong>3D Model &amp; Printing</strong></p>
-<p><img alt="Rhino" src="../../images/rhinoFile.png" /></p>
-<p><img alt="Printed Model" src="../../images/PrintedModel.jpeg" /></p>
-<p><strong>3D Scan of Printed Model</strong></p>
-<p><img alt="Scan 1" src="../../images/scan1.png" />
-<img alt="Scan 2" src="../../images/scan2.png" />
-<img alt="Scan 3" src="../../images/scan3.png" /></p>
-<p>3D Printing was straight-forward, as was 3D Scanning. </p>
-<h3 id="interfaces-machines">Interfaces - Machines<a class="headerlink" href="#interfaces-machines" title="Permanent link">&para;</a></h3>
-<h3 id="cnc-machining">CNC Machining<a class="headerlink" href="#cnc-machining" title="Permanent link">&para;</a></h3>
-<p>CNC machining was harder than I expected it to be.</p>
-<p><img alt="CNC" src="../../images/CNC2.png" />
-<img alt="CNC" src="../../images/CNC1.png" />
-<img alt="CNC" src="../images/CNC3.png" /></p>
-<h3 id="challenge-2">Challenge 2<a class="headerlink" href="#challenge-2" title="Permanent link">&para;</a></h3>
-<p>Repo: <a href="https://github.com/clodbe0/Microchallenge-II/edit/main/README.md">https://github.com/clodbe0/Microchallenge-II/edit/main/README.md</a></p>
-<p>For our microchallenge II we proposed was an interactive installation that allows people to share their experiences with psychoactive substances, and a virtual reality environment that reinforces such a dialogue. </p>
-<p><strong>The confessional - an interactive installation:</strong></p>
-<p>The lack of communication and dialogue around psychoactive substances often leads to a lack of awareness and information about the topic. We believe that sharing personal experiences can be a valuable tool in preventing harm to other consumers. To promote communication and comfortability, we have created The Confessional - a personal and protected space where individuals can freely and anonymously narrate their personal experiences with psychoactive substances. The Confessional is made of plywood, making it lightweight and portable.</p>
-<p><img alt="CNC" src="../../images/CNC2.png" /></p>
-<p>Ideally, all the stories shared in The Confessional will then be translated into a VR experience, which we aim to exhibit at Sonar+D. We recognize that the use of substances is both literary and personal, where one&rsquo;s experience is only partially narrated by literature on a substance and its effects. Therefore, we believe that personal conversations are essential when discussing the topic. Unfolding Conversation thus aims to provide a safe space for people to share their experiences, creating a database of personal narratives that will be exhibited in subsequent installations. Through the power of storytelling, we hope to promote understanding, reduce stigma and discrimination, and create a more accepting and open attitude towards psychoactive substance consumption, especially in a music fest environment where people might be keener to be involved in the topic, looking for further safety and comfort. </p>
-<p>Key Components:</p>
-<p>Structure: Pieces were modeled in Rhino and fabricated via laser cut and CNC (plywood). These technologies were facilitated by FabLab Barcelona.</p>
-<p>Directional Microphone: A directional microphone allowed us to minimize unwanted background noise or interference when recording personal experiences. This provides for minimal post-processing and cleaner audio data, increasing the animation precision of the audio2face animations. While we toyed with the idea of using external microphones and a Raspberry Pi, at the time of our presentation, it did not work.</p>
+ ```
+
+### Challenge I - Augmented Reality and Hidden Conversations
+
+Repo: https://github.com/mdhelomme/MicroChallengeI
+
+Project Overview:
+
+Unfolding Conversations is an ongoing intervention that aims to create open dialogue surrounding the use of psychoactive substances in recreational environments. The project seeks to provide a non-judgmental platform for people to share their experiences and opinions on drug use in various locations, such as music festivals, bars, or universities. It combines a physical sharing board with augmented reality technology to create a unique and interactive experience that facilitates communication about a topic often considered taboo.
+
+Key Components:
+
+Sharing Board: The board is designed using a topography map to allow for modularity and adaptability to different locations and settings. It presents a flow of statements and questions related to drug use, and participants can engage with the board by attaching threads to nails corresponding to their answers.
+
+Invisible Answers: To encourage honest sharing, the project includes &quot;invisible answers&quot; that can be revealed through an augmented reality (AR) app. These answers are printed on stickers with unique shapes and placed on the board. When scanned with the AR app, the stickers reveal more intimate and difficult statements that may be harder for participants to express openly.
+
+AR App: The app, developed using an AR development package and ARKit, allows participants to scan the stickers and view the hidden answers on their smartphones. Currently, the app is limited to individual deployment on iOS devices and must be built through Xcode.
+
+Project Breakdown:
+
+We designed the board starting with a topography map to give a modularity aspect and not to limitate ourselves to a squared board. Also, the shapes of the topography allow us to build on to different shapes and adjust the board according to our preference.
+
+![LaserCut](../images/ModularBoard.png)
+
+Once the shapes were fixed we developed a flow of answers that could represent statements related to drugs and then we placed them in the rhino file.
+
+We first prototyped the board in cardboard to test it out and then laser-cut it on plywood. The whole board starts with a question: &quot;Do you do drugs?&quot; The YES and NO answers correspond to a thread and then the journey begins as a flow of answers to communicate personal opinions and experiences. Close to each answer, we put a nail where a thread can be attached as a &quot;yes I do&quot;.
+
+![LaserCut](../images/LaserCut.jpeg)
+
+We know that being honest, with themselves and others, about drugs is not easy, so in order to allow people to feel more comfortable about sharing we came up with the idea of the invisible answers, more intimate and difficult statements that might be hard to point out in front of others. These answers were not laser cut in the board, instead, we printed shaped stickers (connected to the aesthetic of the project) on blue vinyl and then stuck them on the board.
+
+Utilizing an augmented reality development package along with ARKit, we developed an app that enables users to individually scan each icon (stickers), subsequently displaying the &quot;invisible answers&quot; on their smartphones. However, the app is restricted to individual deployment, which requires us to build and deploy it on each iOS device via Xcode. As a result, the code is currently exclusive to iOS builds.
+
+Ultimately, each participant can experience an open and inclusive space for sharing even more intimate and private aspects related to drug use. This project is a component of a broader initiative called &quot;Drugs You Better Know,&quot; which will soon seek to participate in a Sonar open call for artistic and technological projects operating at the intersection of art, technology, science, and society, focusing on ideas that involve the development of AI, VR, and AR. 
+
+![Final Project](../images/FinalAR.jpeg)
+
+By creating a safe space for sharing personal opinions and experiences about drug use, Unfolding Conversations hopes to raise awareness about the substances in circulation, foster informed decision-making, and ultimately reduce the risk of drug-related problems in recreational environments.
+
+### Networking
+
+For this class we learned about the encryption of networks.
+
+
+### 3D Printing and Scanning
+
+**3D Model &amp; Printing**
+
+![Rhino](../images/rhinoFile.png)
+
+![Printed Model](../images/PrintedModel.jpeg)
+
+**3D Scan of Printed Model**
+
+![Scan 1](../images/scan1.png)
+![Scan 2](../images/scan2.png)
+![Scan 3](../images/scan3.png)
+
+
+3D Printing was straight-forward, as was 3D Scanning. 
+
+### Interfaces - Machines
+
+### CNC Machining
+
+CNC machining was harder than I expected it to be.
+
+![CNC](../images/CNC2.png)
+![CNC](../images/CNC1.png)
+![CNC](../images/CNC3.png)
+
+### Challenge 2
+
+Repo: https://github.com/clodbe0/Microchallenge-II/edit/main/README.md
+
+For our microchallenge II we proposed was an interactive installation that allows people to share their experiences with psychoactive substances, and a virtual reality environment that reinforces such a dialogue. 
+
+**The confessional - an interactive installation:**
+
+The lack of communication and dialogue around psychoactive substances often leads to a lack of awareness and information about the topic. We believe that sharing personal experiences can be a valuable tool in preventing harm to other consumers. To promote communication and comfortability, we have created The Confessional - a personal and protected space where individuals can freely and anonymously narrate their personal experiences with psychoactive substances. The Confessional is made of plywood, making it lightweight and portable.
+
+![CNC](../images/CNC2.png)
+
+Ideally, all the stories shared in The Confessional will then be translated into a VR experience, which we aim to exhibit at Sonar+D. We recognize that the use of substances is both literary and personal, where one&#39;s experience is only partially narrated by literature on a substance and its effects. Therefore, we believe that personal conversations are essential when discussing the topic. Unfolding Conversation thus aims to provide a safe space for people to share their experiences, creating a database of personal narratives that will be exhibited in subsequent installations. Through the power of storytelling, we hope to promote understanding, reduce stigma and discrimination, and create a more accepting and open attitude towards psychoactive substance consumption, especially in a music fest environment where people might be keener to be involved in the topic, looking for further safety and comfort. 
+
+Key Components:
+
+Structure: Pieces were modeled in Rhino and fabricated via laser cut and CNC (plywood). These technologies were facilitated by FabLab Barcelona.
+
+Directional Microphone: A directional microphone allowed us to minimize unwanted background noise or interference when recording personal experiences. This provides for minimal post-processing and cleaner audio data, increasing the animation precision of the audio2face animations. While we toyed with the idea of using external microphones and a Raspberry Pi, at the time of our presentation, it did not work.
+
+**distance measurement code**
+</code></pre></div>
+<h1 id="libraries">Libraries<a class="headerlink" href="#libraries" title="Permanent link">&para;</a></h1>
+<p>import RPi.GPIO as GPIO
+import time</p>
+<h1 id="gpio-mode-board-bcm">GPIO Mode (BOARD / BCM)<a class="headerlink" href="#gpio-mode-board-bcm" title="Permanent link">&para;</a></h1>
+<p>GPIO.setmode(GPIO.BCM)</p>
+<h1 id="set-gpio-pins">set GPIO Pins<a class="headerlink" href="#set-gpio-pins" title="Permanent link">&para;</a></h1>
+<p>GPIO_TRIGGER = 18
+GPIO_ECHO = 24</p>
+<h1 id="set-gpio-direction-in-out">set GPIO direction (IN / OUT)<a class="headerlink" href="#set-gpio-direction-in-out" title="Permanent link">&para;</a></h1>
+<p>GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+GPIO.setup(GPIO_ECHO, GPIO.IN)</p>
+<p>def distance():
+    # set Trigger to HIGH
+    GPIO.output(GPIO_TRIGGER, True)</p>
+<div class="codehilite"><pre><span></span><code># set Trigger after 0.01ms to LOW
+time.sleep(0.00001)
+GPIO.output(GPIO_TRIGGER, False)
+
+StartTime = time.time()
+StopTime = time.time()
+
+# save StartTime
+while GPIO.input(GPIO_ECHO) == 0:
+    StartTime = time.time()
+
+# save time of arrival
+while GPIO.input(GPIO_ECHO) == 1:
+    StopTime = time.time()
+
+# time difference between start and arrival
+TimeElapsed = StopTime - StartTime
+# multiply with the sonic speed (34300 cm/s)
+# and divide by 2, because there and back
+distance = (TimeElapsed * 34300) / 2
+
+return distance
+</code></pre></div>
+
+<p>if <strong>name</strong> == &lsquo;<strong>main</strong>&rsquo;:
+    try:
+        while True:
+            dist = distance()
+            print (&ldquo;Measured Distance = %.1f cm&rdquo; % dist)
+            if dist &lt;= 35:
+                print (&ldquo;we are in the area of interest&rdquo;)
+            time.sleep(1)</p>
+<div class="codehilite"><pre><span></span><code>     Reset by pressing CTRL + C
+except KeyboardInterrupt:
+    print(&quot;Measurement stopped by User&quot;)
+    GPIO.cleanup()
+</code></pre></div>
+
+<ul>
+<li>The script for the led was the most simple one, basically just connecting the LED with an on and off function.</li>
+<li>The last script is the one that triggered us the most.
+  <em>Problem 1</em>: We first started with a microphone that unfortunately didn&rsquo;t work. Then we switched to usb headphones with microphone (we&rsquo;re just using the microphone). We managed to actually record, to play the recording we first moved them in a USB and then in the laptop to check. </li>
+</ul>
+<p><strong>Microphone code</strong>   </p>
+<p>Import pyaudio
+import wave</p>
+<p>FORMAT = pyaudio.paInt16
+CHANNELS = 1
+RATE = 44100
+CHUNK = 1024
+RECORD_SECONDS = 5
+WAVE_OUTPUT_FILENAME = &ldquo;file.wav&rdquo;</p>
+<p>audio = pyaudio.PyAudio()</p>
+<p>start Recording
+stream = audio.open(format=FORMAT, channels=CHANNELS,
+                input_device_index = 1, rate=RATE, input=True,
+                frames_per_buffer=CHUNK)
+print (&ldquo;recording&hellip;&rdquo;)
+frames = []</p>
+<p>for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
+    data = stream.read(CHUNK)
+    frames.append(data)
+print (&ldquo;finished recording&rdquo;)</p>
+<p>stop Recording
+stream.stop_stream()
+stream.close()
+audio.terminate()</p>
+<p>waveFile = wave.open(WAVE_OUTPUT_FILENAME, &lsquo;wb&rsquo;)
+waveFile.setnchannels(CHANNELS)
+waveFile.setsampwidth(audio.get_sample_size(FORMAT))
+waveFile.setframerate(RATE)
+waveFile.writeframes(b&rsquo;&lsquo;.join(frames))
+waveFile.close()
+```</p>
+<p>Final Reflection: Responsible for the physical aspect of the challenge, thus putting together the confessional, it did not take long for me to realize the importance of PLANNING AHEAD and making parametric designs. Many times, we had to measure drilling holes by hand, when we could have both laser cut and measured these virtually, saving us lots of time. Same happened when 3d modelling certain insertion pieces. Overall this challenge was very important for me to realize the importance of planning (almost) every detail before trying to physically piece things together. </p>
                 
                   
                     
