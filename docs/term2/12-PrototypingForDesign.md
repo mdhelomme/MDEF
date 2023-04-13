@@ -241,3 +241,106 @@ Structure: Pieces were modeled in Rhino and fabricated via laser cut and CNC (pl
 
 Directional Microphone: A directional microphone allowed us to minimize unwanted background noise or interference when recording personal experiences. This provides for minimal post-processing and cleaner audio data, increasing the animation precision of the audio2face animations. While we toyed with the idea of using external microphones and a Raspberry Pi, at the time of our presentation, it did not work.
 
+**distance measurement code**
+```
+#Libraries
+import RPi.GPIO as GPIO
+import time
+ 
+#GPIO Mode (BOARD / BCM)
+GPIO.setmode(GPIO.BCM)
+ 
+#set GPIO Pins
+GPIO_TRIGGER = 18
+GPIO_ECHO = 24
+ 
+#set GPIO direction (IN / OUT)
+GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+GPIO.setup(GPIO_ECHO, GPIO.IN)
+ 
+def distance():
+    # set Trigger to HIGH
+    GPIO.output(GPIO_TRIGGER, True)
+ 
+    # set Trigger after 0.01ms to LOW
+    time.sleep(0.00001)
+    GPIO.output(GPIO_TRIGGER, False)
+ 
+    StartTime = time.time()
+    StopTime = time.time()
+ 
+    # save StartTime
+    while GPIO.input(GPIO_ECHO) == 0:
+        StartTime = time.time()
+ 
+    # save time of arrival
+    while GPIO.input(GPIO_ECHO) == 1:
+        StopTime = time.time()
+ 
+    # time difference between start and arrival
+    TimeElapsed = StopTime - StartTime
+    # multiply with the sonic speed (34300 cm/s)
+    # and divide by 2, because there and back
+    distance = (TimeElapsed * 34300) / 2
+ 
+    return distance
+ 
+ if __name__ == '__main__':
+    try:
+        while True:
+            dist = distance()
+            print ("Measured Distance = %.1f cm" % dist)
+            if dist <= 35:
+                print ("we are in the area of interest")
+            time.sleep(1)
+ 
+         Reset by pressing CTRL + C
+    except KeyboardInterrupt:
+        print("Measurement stopped by User")
+        GPIO.cleanup()
+
+- The script for the led was the most simple one, basically just connecting the LED with an on and off function.
+- The last script is the one that triggered us the most.
+  *Problem 1*: We first started with a microphone that unfortunately didn't work. Then we switched to usb headphones with microphone (we're just using the microphone). We managed to actually record, to play the recording we first moved them in a USB and then in the laptop to check. 
+  
+**Microphone code**   
+
+Import pyaudio
+import wave
+ 
+FORMAT = pyaudio.paInt16
+CHANNELS = 1
+RATE = 44100
+CHUNK = 1024
+RECORD_SECONDS = 5
+WAVE_OUTPUT_FILENAME = "file.wav"
+ 
+audio = pyaudio.PyAudio()
+ 
+ start Recording
+stream = audio.open(format=FORMAT, channels=CHANNELS,
+                input_device_index = 1, rate=RATE, input=True,
+                frames_per_buffer=CHUNK)
+print ("recording...")
+frames = []
+ 
+for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
+    data = stream.read(CHUNK)
+    frames.append(data)
+print ("finished recording")
+ 
+ 
+ stop Recording
+stream.stop_stream()
+stream.close()
+audio.terminate()
+ 
+waveFile = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
+waveFile.setnchannels(CHANNELS)
+waveFile.setsampwidth(audio.get_sample_size(FORMAT))
+waveFile.setframerate(RATE)
+waveFile.writeframes(b''.join(frames))
+waveFile.close()
+```
+
+Final Reflection: Responsible for the physical aspect of the challenge, thus putting together the confessional, it did not take long for me to realize the importance of PLANNING AHEAD and making parametric designs. Many times, we had to measure drilling holes by hand, when we could have both laser cut and measured these virtually, saving us lots of time. Same happened when 3d modelling certain insertion pieces. Overall this challenge was very important for me to realize the importance of planning (almost) every detail before trying to physically piece things together. 
