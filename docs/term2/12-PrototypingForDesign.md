@@ -330,7 +330,6 @@ Structure: Pieces were modeled in Rhino and fabricated via laser cut and CNC (pl
 Directional Microphone: A directional microphone allowed us to minimize unwanted background noise or interference when recording personal experiences. This provides for minimal post-processing and cleaner audio data, increasing the animation precision of the audio2face animations. While we toyed with the idea of using external microphones and a Raspberry Pi, at the time of our presentation, it did not work.
 
 **distance measurement code**
-
 ```
 #Libraries
 import RPi.GPIO as GPIO
@@ -387,13 +386,10 @@ def distance():
     except KeyboardInterrupt:
         print("Measurement stopped by User")
         GPIO.cleanup()
-
-- The script for the led was the most simple one, basically just connecting the LED with an on and off function.
-- The last script is the one that triggered us the most.
-  *Problem 1*: We first started with a microphone that unfortunately didn't work. Then we switched to usb headphones with microphone (we're just using the microphone). We managed to actually record, to play the recording we first moved them in a USB and then in the laptop to check. 
+```
   
 **Microphone code**   
-
+```
 Import pyaudio
 import wave
  
