@@ -2,7 +2,7 @@
 
 ##Reflections
 
-### 01/02 - Electronics and Coding
+### Electronics and Coding
 
 This class we explored the basics and extents of electronics. Personally, as someone who has never worked with electronics, it was difficult to grasp the practical uses of the theoretical knowledge presented. Nonetheless, I am exited for future projects, where I hope to truly understand the extents of electronic hardware and command-based electronics.
 
@@ -55,10 +55,9 @@ Also, here is my parametric drawing of a croissant:
 
 ![Croissant](../images/Croissant.png)
 
-
 ### 2D Fabrication - Laser Cutting
 
-For the Laser Cut Project, we printed pieces of our intervention installation "The Confessional"
+For the Laser Cut Project, we printed pieces of our intervention installation "The Confessional". Laser cutting, to me, was a complex experience when having to translate the lines in rhino to the machine itself. Nonetheless, to ease our process, we used the conventional parameters available at fablab for speed and power. Also, in order to waste a lesser amount of material when doing our project, we first prototyped. using cardboard, before cutting into our final piece on plywood.
 
 
 
@@ -68,6 +67,15 @@ This class we discussed the different types of sensors, how resistors work and a
 
 ![Arduino](../images/Morse.jpeg)
 
+This code represents the sensor readings and how it determines an output as SHORT or LONG as according to morse code outputs represented by another system of a Blinking LED light. 
+
+The loop function reads the value of an analog sensor connected to the the Arduino board. If the sensor value is greater than 1000, it sends a message to the serial monitor to turn off the lights and waits for one second.
+
+If the sensor value is less than or equal to 1000, it sends a message to the serial monitor that the lights are off and checks if the LED has turned on by checking if the sensor value is greater than 100 and ledState is 0. If the LED has turned on, it sets ledState to 1 and sends a message to the serial monitor that the LED has turned on. It also sets the startTime variable to the current time using the millis() function and sends a message to the serial monitor with the start time.
+
+The program is trying to sense blinking lights as a translation of Morse code. Therefore, if the LED turns off again, the program calculates the duration of the LED being on by taking the difference between the start time and the end time using the millis() function. It then sends a message to the serial monitor with the end time and the interval. If the interval is less than 1000 milliseconds, it sends a message to the serial monitor that the interval is short, indicating a dot in Morse code. If the interval is greater than or equal to 1000 milliseconds, it sends a message to the serial monitor that the interval is long, indicating a dash in Morse code.
+
+```
 int R2 = 10000;
 float VIN = 3.0;
 
@@ -81,8 +89,6 @@ void setup() {
  Serial.begin(9600);
 }
 
-
-```
 void loop() {
 
  // read the input on analog pin 0:
@@ -142,7 +148,6 @@ void loop() {
    //Serial.println(ldr);
  }
  ```
-
 
 ### Challenge I - Augmented Reality and Hidden Conversations
 
