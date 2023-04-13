@@ -43,6 +43,7 @@ void loop()
       
   }
 } 
+
 ```
 
 ### Computer Aided Modelling and Manifacturing
@@ -149,6 +150,7 @@ void loop() {
    //Serial.print("LDR value: ");
    //Serial.println(ldr);
  }
+ 
  ```
 
 ### Challenge I - Augmented Reality and Hidden Conversations
