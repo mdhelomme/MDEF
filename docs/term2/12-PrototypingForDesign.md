@@ -193,11 +193,13 @@ By creating a safe space for sharing personal opinions and experiences about dru
 
 For this class we learned about the encryption of networks. During the process of establishing a wireless communication network utilizing Wifi broadcasting, we employed the ESP32 Feather development board as a key component. Our team utilized the Arduino serial monitor to input and exchange messages, allowing us to maintain seamless communication throughout the project. Once we successfully set up the system, we proceeded to connect four laptops within our classroom to the established Wifi network.
 
-By harnessing the power of the MQTT (Message Queuing Telemetry Transport) protocol, we were able to facilitate efficient communication between the connected devices and the central broker. This ensured that the data being exchanged among the laptops was managed effectively and in a streamlined manner, further enhancing the overall functionality of our wireless communication system.
+Via the MQTT (Message Queuing Telemetry Transport) protocol, we were able to facilitate efficient communication between the connected devices and the central broker. This ensured that the data being exchanged among the laptops was managed effectively and in a streamlined manner, further enhancing the overall functionality of our wireless communication system.
 
 ![MQTT](../images/MQTT.jpeg)
 
 ### 3D Printing and Scanning
+
+3D Printing was straight-forward, as was 3D Scanning. 
 
 **3D Model & Printing**
 
@@ -210,9 +212,6 @@ By harnessing the power of the MQTT (Message Queuing Telemetry Transport) protoc
 ![Scan 1](../images/scan1.png)
 ![Scan 2](../images/scan2.png)
 ![Scan 3](../images/scan3.png)
-
-
-3D Printing was straight-forward, as was 3D Scanning. 
 
 ### Interfaces - Machines
 
