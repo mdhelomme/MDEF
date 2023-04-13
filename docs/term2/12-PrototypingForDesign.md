@@ -155,6 +155,40 @@ void loop() {
 
 Repo: https://github.com/mdhelomme/MicroChallengeI
 
+Project Overview:
+
+Unfolding Conversations is an ongoing intervention that aims to create open dialogue surrounding the use of psychoactive substances in recreational environments. The project seeks to provide a non-judgmental platform for people to share their experiences and opinions on drug use in various locations, such as music festivals, bars, or universities. It combines a physical sharing board with augmented reality technology to create a unique and interactive experience that facilitates communication about a topic often considered taboo.
+
+Key Components:
+
+Sharing Board: The board is designed using a topography map to allow for modularity and adaptability to different locations and settings. It presents a flow of statements and questions related to drug use, and participants can engage with the board by attaching threads to nails corresponding to their answers.
+
+Invisible Answers: To encourage honest sharing, the project includes "invisible answers" that can be revealed through an augmented reality (AR) app. These answers are printed on stickers with unique shapes and placed on the board. When scanned with the AR app, the stickers reveal more intimate and difficult statements that may be harder for participants to express openly.
+
+AR App: The app, developed using an AR development package and ARKit, allows participants to scan the stickers and view the hidden answers on their smartphones. Currently, the app is limited to individual deployment on iOS devices and must be built through Xcode.
+
+Project Breakdown:
+
+We designed the board starting with a topography map to give a modularity aspect and not to limitate ourselves to a squared board. Also, the shapes of the topography allow us to build on to different shapes and adjust the board according to our preference.
+
+![LaserCut](../images/ModularBoard.png)
+
+Once the shapes were fixed we developed a flow of answers that could represent statements related to drugs and then we placed them in the rhino file.
+
+We first prototyped the board in cardboard to test it out and then laser-cut it on plywood. The whole board starts with a question: "Do you do drugs?" The YES and NO answers correspond to a thread and then the journey begins as a flow of answers to communicate personal opinions and experiences. Close to each answer, we put a nail where a thread can be attached as a "yes I do".
+
+![LaserCut](../images/LaserCut.jpeg)
+
+We know that being honest, with themselves and others, about drugs is not easy, so in order to allow people to feel more comfortable about sharing we came up with the idea of the invisible answers, more intimate and difficult statements that might be hard to point out in front of others. These answers were not laser cut in the board, instead, we printed shaped stickers (connected to the aesthetic of the project) on blue vinyl and then stuck them on the board.
+
+Utilizing an augmented reality development package along with ARKit, we developed an app that enables users to individually scan each icon (stickers), subsequently displaying the "invisible answers" on their smartphones. However, the app is restricted to individual deployment, which requires us to build and deploy it on each iOS device via Xcode. As a result, the code is currently exclusive to iOS builds.
+
+Ultimately, each participant can experience an open and inclusive space for sharing even more intimate and private aspects related to drug use. This project is a component of a broader initiative called "Drugs You Better Know," which will soon seek to participate in a Sonar open call for artistic and technological projects operating at the intersection of art, technology, science, and society, focusing on ideas that involve the development of AI, VR, and AR. 
+
+![Final Project](../images/FinalAR.jpeg)
+
+By creating a safe space for sharing personal opinions and experiences about drug use, Unfolding Conversations hopes to raise awareness about the substances in circulation, foster informed decision-making, and ultimately reduce the risk of drug-related problems in recreational environments.
+
 ### Networking
 
 For this class we learned about the encryption of networks.
