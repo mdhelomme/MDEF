@@ -191,8 +191,11 @@ By creating a safe space for sharing personal opinions and experiences about dru
 
 ### Networking
 
-For this class we learned about the encryption of networks.
+For this class we learned about the encryption of networks. During the process of establishing a wireless communication network utilizing Wifi broadcasting, we employed the ESP32 Feather development board as a key component. Our team utilized the Arduino serial monitor to input and exchange messages, allowing us to maintain seamless communication throughout the project. Once we successfully set up the system, we proceeded to connect four laptops within our classroom to the established Wifi network.
 
+By harnessing the power of the MQTT (Message Queuing Telemetry Transport) protocol, we were able to facilitate efficient communication between the connected devices and the central broker. This ensured that the data being exchanged among the laptops was managed effectively and in a streamlined manner, further enhancing the overall functionality of our wireless communication system.
+
+![MQTT](../images/MQTT.jpeg)
 
 ### 3D Printing and Scanning
 
@@ -213,11 +216,22 @@ For this class we learned about the encryption of networks.
 
 ### Interfaces - Machines
 
+For this class, we used a remote server to simoultaneoulsy activate all the ESP Featherboards in class, resulting in a fun light show.
+
+![LightsNetwork](../images/Network.png)
+
 ### CNC Machining
 
-CNC machining was harder than I expected it to be.
-
 ![CNC](../images/CNC2.png)
+
+CNC machining was harder than I expected it to be. The initial phase of our process involved utilizing Rhino render to gain an understanding of the measurements and proportions required for our design. As we progressed, we made significant alterations to the design in order to accommodate the available board size and ensure that the final structure would be as lightweight as possible. 
+
+In the second stage, we transitioned our design file to be compatible with CNC configuration. This required converting the 3D model into a 2D representation, which would ultimately facilitate the fabrication process. Given that the walls of the confessional booth would need to be securely connected, we spent considerable time devising a finger tenon joinery system to achieve this goal.
+
+The third step of our project entailed familiarizing ourselves with the operation of the CNC machine so as ro comprehend the necessary settings and adjustments for the machine. This would theoretically ensure the accuracy and precision of our fabrication efforts.
+
+As we delved into the complexities of the process, we encountered numerous unforeseen details and considerations that had not been evident during the 3D modeling phase. This necessitated last-minute modifications and adjustments, which, though unexpected, ultimately demonstrated the importance of recording our processes and paying attention to detail..
+
 ![CNC](../images/CNC1.png)
 ![CNC](../images/CNC3.png)
 
