@@ -1,6 +1,6 @@
 # Distributed Design
 
-**Wednesday Session 1 - Mushroom Model**
+### **Wednesday Session 1 - Mushroom Model**
 
 ***Learning Skills:***
 
@@ -8,7 +8,7 @@
 
 ***Interactions***
 
-**Thursday Session 2 - Reflection Tree**
+### **Thursday Session 2 - Reflection Tree**
 
 ![Reflection Tree](../images/ReflectionTree.jpg)
 
@@ -24,9 +24,7 @@ I really enjoyed my group's dynamics, particularly Korbi's reflections on the de
 
 Very honestly my interactions did not really change my point of view, since my collegues seemed to agree with my categorization for my project as according to the different branches. What they did highlight however, was the difference in between a theoretical and actual evaluation. While I was evaluating the potentialities of my project, my colleagues invited me to look it as it was, an initial prototype. 
 
-**Friday Session 3 - Value Presentation**
-
-![Me](../images/DrawingMe.jpg)
+### **Friday Session 3 - Value Presentation**
 
 ***Learning Skills:***
 
@@ -80,6 +78,7 @@ The dynamic was really fun and mind-opening. I really enjoyed the way that every
 
 ***Interactions***
 
+![Me](../images/DrawingMe.jpg)
 
 The interaction that stood out to me the most was the portrait ice breaker. I found it very interesting how are drawing styles were drawn from our personal cultures, and how I felt in a very delicate position when picturing the figure of somewhat else. The exercise made me realize how there is great power in the act of representation.
 
