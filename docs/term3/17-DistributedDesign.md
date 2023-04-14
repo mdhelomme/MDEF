@@ -30,7 +30,7 @@ Very honestly my interactions did not really change my point of view, since my c
 
 ***Learning Skills:***
 
-This session my group focused on the value of creativity. Nonethless I was able to learn a lot from every presentation, as well as from my group's collaborative brainstorming.
+This session my group focused on the value of curiosity. Nonethless I was able to learn a lot from every presentation, as well as from my group's collaborative brainstorming.
 
 Collaboration:
 - "Capacity for collaboration" - is it meaningful collaboration?
@@ -48,25 +48,27 @@ Collaboration:
 - Justice is a "human concept". What does justice mean outside of human structures?
 - "Justice is what love looks like in a public sphere" -> relationship between humanity and society
 
-Creativity:
+Curiosity:
 ![Poster](../images/PosterDD1.jpg)
 ![Poster](../images/DDPoster2.jpg)
 
-Our one hour conversation on creativity involved so many different aspcets, that I think outlining it is a very difficult task. Yet, we came to the conclusion that creativity is involves in our inherent beings, as methodologies for existensialism, yet also as a bridge for subsequent values such as collaboration, inclusivity, chaos, the power of listening, and so many more. 
+Our one hour conversation on curiosity involved so many different aspcets, that I think outlining it is a very difficult task. Yet, we came to the conclusion that curiosity is involves in our inherent beings, as methodologies for existensialism, yet also as a bridge for subsequent values such as collaboration, inclusivity, chaos, the power of listening, and so many more. 
 
-One method that we found to instigue creativity, was to encourage everyone in class to collectively engage in a fun exercise. This collaborative writing activity, sometimes called "Consequences" or "Exquisite Corpse," encourages players to tap into their imaginations, think on their feet, and respond to prompts in unique ways.
+One method that we found to instigue curiosity, was to encourage everyone in class to collectively engage in a fun exercise. The game challenges participants to explore different ideas, engage with the unknown, and continuously question the unfolding narrative:
 
-- ***Diverse input:*** Since each participant contributes a different word, the resulting sentence or story often combines a wide range of ideas and perspectives. This diversity promotes creative thinking, as players must adapt to and build on the contributions of others.
+- Incomplete information: As players are only aware of the word they themselves contribute, they must embrace the unknown and anticipate the potential combinations that could arise from the hidden words. This incomplete information piques curiosity and encourages participants to continuously wonder about the unfolding story.
 
-- ***Unpredictable combinations:*** Because players cannot see the hidden words, they must come up with a verb or adverb without any context. This unpredictability stimulates creativity, as players have to generate ideas that could potentially fit a wide range of scenarios.
+- Desire to discover: With each turn, players are motivated to find out what the other participants have written. This desire to discover fuels curiosity, as players eagerly await the final reveal and the chance to piece together the entire narrative.
 
-- ***Constraint-based creativity:*** The structure of the game imposes certain limitations on participants, such as the specific order of words (name, verb, adverb) and the need to write without context. These constraints can actually boost creativity, as players are forced to work within these boundaries and think outside the box to produce interesting and unexpected results.
+- Adaptive thinking: Since the game requires participants to work with the contributions of others, players must adapt their thinking and consider a range of possible scenarios. This encourages them to ask questions and make connections, stimulating their curiosity and cognitive flexibility.
 
-- ***Spontaneity:*** The fast-paced nature of the game encourages participants to quickly generate ideas without overthinking or self-editing. This spontaneity can lead to more creative and playful contributions, as players are less likely to become bogged down in trying to produce the "perfect" word.
+- Unpredictable outcomes: The game's inherent unpredictability is a major source of curiosity. Participants can never be sure how their words will interact with others', creating a sense of suspense and excitement as the story unfolds.
 
-- ***Collaboration:*** The game requires players to work together in order to create a coherent sentence or story. This collaboration fosters creativity, as participants must consider how their word choices might interact with others', and then adapt their contributions accordingly.
+- Interpersonal curiosity: The name-verb-adverb game also promotes curiosity about the other players, as individuals learn about each other's thought processes, sense of humor, and creative tendencies through their word choices.
 
-In summary, the game was an exercise in creativity due to the way it engages participants in collaborative, spontaneous, and constrained creative thinking, resulting in unique and often unexpected combinations of words and ideas.
+- Exploration of language: The game serves as an opportunity for participants to explore the flexibility and richness of language. Players are encouraged to delve into the vast possibilities of words and expressions, generating a curiosity about the different ways they can be combined to create meaning.
+
+The game's structure and collaborative nature stimulate participants' curiosity and invite them to actively engage with the unknown, ask questions, and explore possibilities.
 
 ***Dynamics***
 
