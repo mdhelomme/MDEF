@@ -68,7 +68,11 @@ One method that we found to instigue curiosity, was to encourage everyone in cla
 
 - Exploration of language: The game serves as an opportunity for participants to explore the flexibility and richness of language. Players are encouraged to delve into the vast possibilities of words and expressions, generating a curiosity about the different ways they can be combined to create meaning.
 
-The game's structure and collaborative nature stimulate participants' curiosity and invite them to actively engage with the unknown, ask questions, and explore possibilities.
+The game's structure and collaborative nature was a fun way we found to stimulate curiosity and invite our class to actively engage with the value.
+
+![Poem](../images/ManofWar.jpg)
+![Poem](../images/Poem2.jpg)
+![Poem](../images/Poem3.jpg)
 
 ***Dynamics***
 
@@ -76,7 +80,6 @@ The dynamic was really fun and mind-opening. I really enjoyed the way that every
 
 ***Interactions***
 
-![Poem](../images/ManofWar.jpg)
 
 The interaction that stood out to me the most was the portrait ice breaker. I found it very interesting how are drawing styles were drawn from our personal cultures, and how I felt in a very delicate position when picturing the figure of somewhat else. The exercise made me realize how there is great power in the act of representation.
 
