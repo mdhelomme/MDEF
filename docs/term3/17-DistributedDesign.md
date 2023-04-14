@@ -26,8 +26,28 @@ Very honestly my interactions did not really change my point of view, since my c
 
 **Friday Session 3 - Value Presentation**
 
+![Me](../images/DrawingMe.jpg)
+
 ***Learning Skills:***
+
+This session my group focused on the value of creativity. 
 
 ***Dynamics***
 
+The dynamic was really fun and mind-opening,
+
 ***Interactions***
+
+My interactions with both my group, and the class presentations were really eye-opening.
+
+Collaboration:
+- "Capacity for collaboration" - is it meaningful collaboration?
+- Some people dont have the skills to collaborate because they were never given the chance to.
+- Collaboration is dependant on power roles and position of priviledge.
+- "How do you even measure that or think about that?" 
+- It is about creating safe environments for people to share.
+- Our biases also play a role in the means by which we collaborate. We must ask ourselves how can we collaborate without preconceptions and prior assumptions on both the project, our positionalities as collaborators, and our impacts on ecosystems.
+
+![Poster](../images/PosterDD1.jpg)
+![Poster](../images/DDPoster2.jpg)
+![Poem](../images/ManofWar.jpg)
