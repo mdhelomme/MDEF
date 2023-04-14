@@ -34,7 +34,7 @@ This session my group focused on the value of creativity.
 
 ***Dynamics***
 
-The dynamic was really fun and mind-opening,
+The dynamic was really fun and mind-opening. I really enjoyed the way that everygroup established a different format to present their values, and how everyone was exited to both comment and listen on every presentation.
 
 ***Interactions***
 
@@ -47,6 +47,13 @@ Collaboration:
 - "How do you even measure that or think about that?" 
 - It is about creating safe environments for people to share.
 - Our biases also play a role in the means by which we collaborate. We must ask ourselves how can we collaborate without preconceptions and prior assumptions on both the project, our positionalities as collaborators, and our impacts on ecosystems.
+
+(Social) Justice:
+- When you are on top of the hierarchy, you do not see the need for justice. It is thus driven by the opressed, in most cases.
+- Reparation, accountability, distribution of power.
+- On a smaller scale, how can we define fairness and justice? This seems to be dependant on the futures that we hope to build for ourselves and others.
+- Justice many times lies in the way that we take things for granted. We feel unjusticed when things are taken away from us.
+- Justice is a "human concept". What does justice mean outside of human structures?
 
 ![Poster](../images/PosterDD1.jpg)
 ![Poster](../images/DDPoster2.jpg)
