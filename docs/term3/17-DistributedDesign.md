@@ -54,7 +54,19 @@ Creativity:
 
 Our one hour conversation on creativity involved so many different aspcets, that I think outlining it is a very difficult task. Yet, we came to the conclusion that creativity is involves in our inherent beings, as methodologies for existensialism, yet also as a bridge for subsequent values such as collaboration, inclusivity, chaos, the power of listening, and so many more. 
 
-One method that we found to instigue creativity, was to encourage everyone in class to collectively write a poem.
+One method that we found to instigue creativity, was to encourage everyone in class to collectively engage in a fun exercise. This collaborative writing activity, sometimes called "Consequences" or "Exquisite Corpse," encourages players to tap into their imaginations, think on their feet, and respond to prompts in unique ways.
+
+- ***Diverse input:*** Since each participant contributes a different word, the resulting sentence or story often combines a wide range of ideas and perspectives. This diversity promotes creative thinking, as players must adapt to and build on the contributions of others.
+
+- ***Unpredictable combinations:*** Because players cannot see the hidden words, they must come up with a verb or adverb without any context. This unpredictability stimulates creativity, as players have to generate ideas that could potentially fit a wide range of scenarios.
+
+- ***Constraint-based creativity:*** The structure of the game imposes certain limitations on participants, such as the specific order of words (name, verb, adverb) and the need to write without context. These constraints can actually boost creativity, as players are forced to work within these boundaries and think outside the box to produce interesting and unexpected results.
+
+- ***Spontaneity:*** The fast-paced nature of the game encourages participants to quickly generate ideas without overthinking or self-editing. This spontaneity can lead to more creative and playful contributions, as players are less likely to become bogged down in trying to produce the "perfect" word.
+
+- ***Collaboration:*** The game requires players to work together in order to create a coherent sentence or story. This collaboration fosters creativity, as participants must consider how their word choices might interact with others', and then adapt their contributions accordingly.
+
+In summary, the game was an exercise in creativity due to the way it engages participants in collaborative, spontaneous, and constrained creative thinking, resulting in unique and often unexpected combinations of words and ideas.
 
 ***Dynamics***
 
