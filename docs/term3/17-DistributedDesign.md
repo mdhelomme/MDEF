@@ -1,13 +1,5 @@
 # Distributed Design
 
-### **Wednesday Session 1 - Mushroom Model**
-
-***Learning Skills:***
-
-***Dynamics***
-
-***Interactions***
-
 ### **Thursday Session 2 - Reflection Tree**
 
 ![Reflection Tree](../images/ReflectionTree.jpg)
