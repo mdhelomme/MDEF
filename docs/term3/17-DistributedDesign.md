@@ -30,15 +30,7 @@ Very honestly my interactions did not really change my point of view, since my c
 
 ***Learning Skills:***
 
-This session my group focused on the value of creativity. 
-
-***Dynamics***
-
-The dynamic was really fun and mind-opening. I really enjoyed the way that everygroup established a different format to present their values, and how everyone was exited to both comment and listen on every presentation.
-
-***Interactions***
-
-My interactions with both my group, and the class presentations were really eye-opening.
+This session my group focused on the value of creativity. Nonethless I was able to learn a lot from every presentation, as well as from my group's collaborative brainstorming.
 
 Collaboration:
 - "Capacity for collaboration" - is it meaningful collaboration?
@@ -54,7 +46,26 @@ Collaboration:
 - On a smaller scale, how can we define fairness and justice? This seems to be dependant on the futures that we hope to build for ourselves and others.
 - Justice many times lies in the way that we take things for granted. We feel unjusticed when things are taken away from us.
 - Justice is a "human concept". What does justice mean outside of human structures?
+- "Justice is what love looks like in a public sphere" -> relationship between humanity and society
 
+Creativity:
 ![Poster](../images/PosterDD1.jpg)
 ![Poster](../images/DDPoster2.jpg)
+
+Our one hour conversation on creativity involved so many different aspcets, that I think outlining it is a very difficult task. Yet, we came to the conclusion that creativity is involves in our inherent beings, as methodologies for existensialism, yet also as a bridge for subsequent values such as collaboration, inclusivity, chaos, the power of listening, and so many more. 
+
+One method that we found to instigue creativity, was to encourage everyone in class to collectively write a poem.
+
+***Dynamics***
+
+The dynamic was really fun and mind-opening. I really enjoyed the way that everygroup established a different format to present their values, and how everyone was exited to both comment and listen on every presentation. I also really appreciated working outside of the classroom, under the sunlight.
+
+***Interactions***
+
 ![Poem](../images/ManofWar.jpg)
+
+The interaction that stood out to me the most was the portrait ice breaker. I found it very interesting how are drawing styles were drawn from our personal cultures, and how I felt in a very delicate position when picturing the figure of somewhat else. The exercise made me realize how there is great power in the act of representation.
+
+
+
+
