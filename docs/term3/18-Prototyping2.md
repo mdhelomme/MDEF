@@ -1,6 +1,6 @@
 #Prototyping for Design 2.0
 
-### Robots
+### **Robots**
 
 ***Task: Create a file!***
 
@@ -11,3 +11,5 @@ This class, we were taught both the theory and practical apsect of using a robot
 It was really fun to play around with the robot. It was also intersting moving in the different dimensions in physical space, since I am used to modelling in virtual spaces, where you can move your viewport as acoording to the axis. 
 
 ![Robot](../images/Robots2.jpg)
+
+### **Title2**
