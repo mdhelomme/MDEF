@@ -16,6 +16,7 @@ In this class, we talked about technology as a goal-oriented tool. These goals a
 
 In this section of the class we discussed technologies as extensions of the human body in both a physical and psychological sense.
 
+
 *Multi-stability: No technology is just one thing.* This is a very interesting concept, and highlights the emotional context that we place onto technologies. It highlights the 
 
 
