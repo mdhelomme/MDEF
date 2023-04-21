@@ -9,7 +9,7 @@ In this class, we talked about technology as a goal-oriented tool. These goals a
 "Because of their active role in the codefinition of contexts, technologies have a clear moral dimension". 
 - the moral dimension 
 
-<p style="text-align: center;">-//-</p
+<p style="text-align: center;">-//-</p>
 
 *Nassim Parvim, Just Design: Pasts, Presents, and Futures (Suggested reading)*
 
@@ -19,6 +19,6 @@ Technological neutrality asserts that technology is inherently neutral and only 
 
 However, it is important to consider the possibility that technologies, while potentially contributing to equitable futures, may also create problems that incentivize the development of even more technologies, which could be unsustainable. This perpetual cycle of problem-solving may undermine efforts to create just and sustainable societies. As designers, it is crucial to be mindful of this paradox and work towards designing not just for immediate problem-solving, but for long-term social equity and environmental sustainability.
 
+<p style="text-align: center;">-//-</p>
+
 ### Session 2: Laura Benítez Valero
-
-
