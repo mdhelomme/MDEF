@@ -16,4 +16,4 @@ It was really fun to play around with the robot. It was also intersting moving i
 
 In this class Victor introduced us to his motives behind using Blender as a tool. Besides explaining the history of Blender, and how it came to be in 2004,  Victor provided a very interesting reflective note on the use of softwares, motives and limitations. He explained how the tools we choose force us towards determined paths. We are thus dependant on that which is available to us within these coices. Yet, why do the designers of a tool chose the tools they provide? Obviously, this is dependent on the motivation of the designer, and in most cases, such a motivation is capital oriented.
 
-- free code: Your are free to do what you please, no limitations. You can even distribute it if you wish.
+The class was interesting for me since I have some experience with Blender. Even though we touched on the basics, Blender is a software with myriad of ways to do the same thing, so I always enjoy watching other people's workflows. 
