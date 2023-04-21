@@ -11,7 +11,7 @@ In this class, we talked about technology as a goal-oriented tool. These goals a
 
 <p style="text-align: center;">-//-</p
 
-Nassim Parvim, Just Design: Pasts, Presents, and Futures (Suggested reading)
+*Nassim Parvim, Just Design: Pasts, Presents, and Futures (Suggested reading)*
 
 Parvim's piece offers valuable insight into the relationship between communication, technology, and socio-technical infrastructures. The text sheds light on how technological neutrality and technological determinism play crucial roles in shaping our collective futures.
 
