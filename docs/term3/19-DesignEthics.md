@@ -18,3 +18,7 @@ Parvim's piece offers valuable insight into the relationship between communicati
 Technological neutrality asserts that technology is inherently neutral and only takes on ethical significance through human use. However, this perspective may prevent designers from considering the potential consequences of their work, resulting in the perpetuation of unjust social systems. In contrast, technological determinism assumes that technology drives social change, emphasizing the importance of responsible design choices. By recognizing the agency of designers, this perspective allows us to imagine technologies that can foster equitable futures.
 
 However, it is important to consider the possibility that technologies, while potentially contributing to equitable futures, may also create problems that incentivize the development of even more technologies, which could be unsustainable. This perpetual cycle of problem-solving may undermine efforts to create just and sustainable societies. As designers, it is crucial to be mindful of this paradox and work towards designing not just for immediate problem-solving, but for long-term social equity and environmental sustainability.
+
+### Session 2: Laura Benítez Valero
+
+
