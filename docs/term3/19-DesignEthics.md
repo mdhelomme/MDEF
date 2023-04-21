@@ -14,6 +14,7 @@ In this section of the class we discussed technologies as extensions of the huma
 
 *Multi-stability: No technology is just one thing.* This is a very interesting concept, and highlights the emotional context that we place onto technologies. It highlights the 
 
+![Board](../images/JevonsParadox.jpeg)
 
 <p style="text-align: center;">-//-</p>
 
