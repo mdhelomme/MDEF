@@ -22,6 +22,7 @@ In this section of the class we discussed technologies as extensions of the huma
 
 ![Board](../images/JevonsParadox.jpeg)
 
+Technosolutionism: Baby video
 
 <p style="text-align: center;">-//-</p>
 
