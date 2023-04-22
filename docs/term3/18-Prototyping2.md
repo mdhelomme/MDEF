@@ -4,6 +4,8 @@
 
 ***Task: Create a file!***
 
+![Anarchism](../images/RobotA.png)
+
 This class, we were taught both the theory and practical apsect of using a robot. The robot moves on 7 different dimensions, which can be counted by its amount of joints. Later, we were also asked to prepare the robot file. We were provided with example files to understand how to set the robot parameters:
 
 ![Board](../images/Robots1.jpg)
