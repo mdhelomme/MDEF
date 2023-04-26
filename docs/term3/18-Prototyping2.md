@@ -19,3 +19,15 @@ It was really fun to play around with the robot. It was also intersting moving i
 In this class Victor introduced us to his motives behind using Blender as a tool. Besides explaining the history of Blender, and how it came to be in 2004,  Victor provided a very interesting reflective note on the use of softwares, motives and limitations. He explained how the tools we choose force us towards determined paths. We are thus dependant on that which is available to us within these coices. Yet, why do the designers of a tool chose the tools they provide? Obviously, this is dependent on the motivation of the designer, and in most cases, such a motivation is capital oriented.
 
 The class was interesting for me since I have some experience with Blender. Even though we touched on the basics, Blender is a software with myriad of ways to do the same thing, so I always enjoy watching other people's workflows. 
+
+### **Live interfaces**
+
+Languages: scratch (for kids), Python (quicker learning curve), C++ (better for animation, but requires time), JFTTT (internet integration), AFrame (virtual reality within the website)
+
+langchain - framework in python to prototype ideas, works with OpenAI and Drive (check repo)
+
+*Interaction, electronics and embodiement, Citlali Hernandez*
+
+Live Coding: Used MAX language for live robot dance installation
+
+It was very interesting to listen about how she engaged live coding in such interdisciplinary installations, such a embodiement, dance and art.
