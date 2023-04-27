@@ -37,3 +37,7 @@ ALGOPOLIS 2022: different approaches to live coding. This is a project which use
 ### **Blender and Python***
 
 Today we learned how to use the python API inside Blender. We learned how the object in programming refers to a set of properties, which allowed for manipulation within tblocks of code. Also, we were reminded how variables are where your store data.
+
+TCP & UDP
+
+![Diagram](../images/Graphic-UDP.png)
