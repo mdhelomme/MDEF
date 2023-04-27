@@ -33,3 +33,7 @@ Live Coding: Used MAX language for live robot dance installation
 It was very interesting to listen about how she engaged live coding in such interdisciplinary installations, such a embodiement, dance and art.
 
 ALGOPOLIS 2022: different approaches to live coding. This is a project which uses coding for live music and visuals. 
+
+### **Blender and Python***
+
+Today we learned how to use the python API inside Blender. We learned how the object in programming refers to a set of properties, which allowed for manipulation within tblocks of code. 
