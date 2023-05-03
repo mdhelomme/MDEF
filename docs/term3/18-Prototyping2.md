@@ -41,3 +41,5 @@ Today we learned how to use the python API inside Blender. We learned how the ob
 TCP & UDP
 
 ![Diagram](../images/Graphic-UDP.png)
+
+While the applications of Pythin within blender are interesting, I still wonder if it is practical to use Blender as an intermediary platform between live interfaces and final visual representations of data.
