@@ -1,5 +1,7 @@
 # My Alternative Present, A Bio-Algrythmic Manifesto
 
+![TD](../images/TD.gif)
+
 In my alternative present, I bring to life a blend of technologies and ideas inspired by my extensive investigation of digital visual tools, enhanced sensory experiences, and biological algorithmic forms. My past endeavors have converged and evolved, culminating in a groundbreaking reality that uniquely merges science, technology, and art.
 
 At the heart of this alternative present, there lies a groundbreaking biofeedback device. This powerful tool embodies the culmination of my research and development efforts, forming a bridge between abstract concepts and tangible reality. It is designed to illustrate the ceaseless dialogues that our bodies engage in, those that whisper the language of our internal state, our emotions, and our consciousness. InnerSync represents my desire for a holistic approach to quantified scientific systems, and overall the co-developmentary approach heaçling approach of mind and body within our present realities. 
