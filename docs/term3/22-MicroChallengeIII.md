@@ -2,6 +2,8 @@
 
 Repo: https://github.com/mdhelomme/MicroChallengeIII
 
+![TD](../images/biofeedback_demo.gif)
+
 ### HRV and Conceptualizing Quantified Data
 
 When we embarked on this journey, little did we know that it would lead us to a profound exploration of our bodies, our emotions, and the importance of truly listening to ourselves. Our shared passions for mental and physical well-being, combined with a holistic perspective on wellness, ignited a captivating conversation that opened our eyes to the wisdom our bodies hold.
@@ -14,7 +16,7 @@ Our goal was clear—to create a real-time visualization of HRV and enable indiv
 
 HRV analysis, at its core, provides valuable insights into an individual's physiological state, their autonomic nervous system functioning, stress levels, and overall health. It has found applications in medical and research settings, sports science, and other domains where objective measurements and data-driven analysis hold great significance.
 
-(add image)
+![ECG](../images/ecggif.gif)
 
 **But why do we believe in this approach so strongly?**
 
@@ -32,7 +34,7 @@ Our primary objective is to design an immersive visual experience that brings re
 
 By transforming abstract data into tangible visual representations, we aim to engage viewers on a profound level, making complex information accessible and leaving a lasting impact.
 
-(image)
+![aura](../images/auragif.gif)
 
 **TouchDesigner**
 
@@ -40,11 +42,17 @@ TouchDesigner, a remarkable node-based visual programming language developed by 
 
 One of TouchDesigner's greatest strengths lies in its ability to handle different types of data, convert between them, and seamlessly combine them. This versatility empowers us to design interactive experiences and installations with boundless creativity.
 
-(add gifs here)
+![TD](../images/TD.gif)
+
+![TD](../images/TD1.gif)
+
+![TD](../images/TD2.gif)
 
 In our project, we utilized data recorded from the POLAR10, transforming the raw input into a conceptual art piece. While our focus was on artistic expression rather than a comprehensive understanding of the data, the outcome was undeniably captivating.
 
 **Python**
+
+![test](../images/testing.png)
 
 Python played a vital role in accessing and analyzing data from the PolarH10 sensor, providing us with accurate HRV values. By utilizing the Bleak library, a Python library for connecting with BLE devices, we established a connection to the PH10 sensor. We then employed the PyHRV library to calculate RR peaks and HRV values. The process was not without its challenges, as the sensor data required calibration, extensive testing, and careful consideration to achieve the desired results.
 
