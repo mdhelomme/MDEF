@@ -14,7 +14,6 @@ nav:
   - Master project:
       - Initial ideas: project/project.md
       - Communication Strategies: project/Strategies.md
-      - Reflection Term 1: project/Strategies.md
   - Reflections :
       - Term 1:
         - Bootcamp: term1/01-Bootcamp.md
@@ -26,6 +25,8 @@ nav:
         - Community Engagement: term1/07-CommunityEngagement.md
         - Extended Intelligences: term1/08-ExtendedIntelligences.md
         - Design Dialogues: DesignDialogues/DD.md
+        - Reflection Term 1: project/Strategies.md
+
       - Term 2:
         - Design Studio: term2/15-DesignStudioT2.md
         - Designing for the Next Billion Seconds: term2/09-DesigningNextBillion.md
