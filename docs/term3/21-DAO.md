@@ -12,6 +12,10 @@ It was during these activities that I began to reconcile with my initial skeptic
 
 It was during these explorations that Claudia and I conceptualized the idea of a bio-algorithmic NFT. As a collective of digital artists, we are passionately intrigued by the fusion of technology and human biology. We then envisioned an innovative project that harnesses bio-tracking data, such as heart rate, to craft dynamic digital sculptures. Our ambition is to capture the unique physiological signatures of individuals and translate them into personalized pieces of digital art—akin to an evolving, visual echo of a person's biological state. These creations would not be static; but responsive and alive, adapting in real-time based on bio-feedback from devices like Apple watches.
 
+![Art](../images/DataArt1.png)
+
 In speculation, we see an untapped opportunity to redefine the concept of creation and ownership in the digital art space. The sculptures we design aren't just static pieces of digital art; they are "living" NFTs. Each token, each sculpture, is intimately tied to its owner, evolving in harmony with their biological rhythm. It's more than just a digital asset—it becomes a unique, digital reflection of the owner's physiological state. Heart rate data influences the color, texture, and shape of the NFT, adding a deeply personal dimension to these digital tokens. Within the web3 ecosystem, these living sculptures can be traded, displayed, and owned, broadening the impact of our art and challenging traditional modes of engagement with digital art. We envision this project as a pioneering pathway to self-expression and interconnection, merging the digital and physical in a previously unexplored manner.
+
+![Art](../images/DataArt2.png)
 
 [![Video](../images/Video.png)](https://vimeo.com/835598934?share=copy "Collective Inteligence")
